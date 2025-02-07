@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integer Validation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Check if Input is an Integer</h1>
+        <form id="integerForm" novalidate>
+            <div class="form-group">
+                <label for="inputNumber">Enter a Number:</label>
+                <input type="text" id="inputNumber" name="inputNumber" placeholder="Enter a number" required>
+                <small class="error-message" id="errorMessage"></small>
+            </div>
+            <button type="submit" class="btn">Check</button>
+        </form>
+        <p id="resultMessage" class="result-message"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
